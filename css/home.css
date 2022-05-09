@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: 'Archivo Black';
+    font-variant: small-caps;
+}
+.header{
+    background-color: white;
+	  padding: 15px; 
+	  display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.header a{
+	  float: left;
+	  color: rgb(37, 51, 153);
+	  text-align: center;
+	  padding: 15px;
+	  text-decoration: none;
+	  line-height: 25px;
+    border-radius: 4px;
+    font-size: 20px;
+    font-weight: bold; 
+    font-variant: small-caps;
+}
+
+.header a#logo{
+    text-align: center;
+    text-decoration: none;
+    color: rgb(37, 51, 153);
+    font-size: 40px;
+    font-weight: bolder;
+}
+	
+.header #text:hover{
+	  cursor: pointer;
+    background-color: rgba(37, 51, 153, 0.5);
+    color: white;
+}
+
+#link {
+  	float: right;
+}
+
+.dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  .dropdown .dropbtn {
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color:  rgb(37, 51, 153);
+    background-color: white;
+    padding: 15px;
+  }
+
+  .dropdown:hover .dropbtn, .dropbtn:focus {
+    background-color: rgba(37, 51, 153, 0.5);
+    color: white;
+    cursor: pointer;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    float: none;
+    color: rgb(117, 131, 230);
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: silver;
+    color: rgb(37, 51, 153);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+.background{
+    position: relative;
+}
+
+.background img{
+
+    background-size: cover;
+    width: 100vw;
+    height: 80vh;
+    filter: blur(2px);
+}
+
+#heading{
+    font-weight: bolder;
+    font-size: 40pt;
+    color: white;
+}
+
+.background #quote{
+    position: absolute;
+    color: rgb(206, 209, 235);
+    font-size: 40px;
+    text-align: center;
+    top: 30%;
+    bottom: 30%;
+    left: 2vw;
+    right: 2vw;
+    margin: auto;
+    font-size: 20pt;
+    font-weight: bolder;
+    font-variant: small-caps;
+} 
+
+.background:hover img{
+  filter: blur(4px);
+}
+
+#moto{
+    font-size: 20pt;
+    text-align: center;
+    padding: 8vh 10vw;
+    color: rgb(117, 131, 230);
+    
+}
+
+#promise{
+    font-size: 15pt;
+    text-align: center;
+    padding: 0 8vw 8vh 8vw;
+    color: rgb(21, 3, 59,0.8);
+}
+
+.description{
+  display: flex; 
+  background-color: rgba(21, 3, 59, 0.9);
+  color: white;
+}
+
+.description div{
+  width: 22vw;
+  height: 45vh;
+  padding: 50px 40px;
+  color: rgb(186, 194, 207);
+}
+
+.description img{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+.description #div1{
+  width: 34vw;
+}
+.description a#logo{
+  text-decoration: none;
+  color: white;
+  font-size: 35pt;
+  font-weight: bolder;
+}
+.description a{
+  text-decoration: none;
+  font-size: 12pt;
+  color: rgb(186, 194, 207);
+  font-weight: lighter;
+}
+
+.description p{
+  color: rgb(186, 194, 207);
+  font-weight: lighter;
+  font-size: 12pt;
+}
+
+.description a:hover{
+  color: lightblue;
+  font-size: 17pt;
+}
+
+.description h4{
+  font-size: 20pt;
+  color: white;
+}
+.footer {
+    font-size: 15pt;
+    color: rgb(37, 51, 153);
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    font-family: Georgia, serif;
+}   
